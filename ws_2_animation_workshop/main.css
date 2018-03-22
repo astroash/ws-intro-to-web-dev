@@ -43,7 +43,7 @@
   border-radius: 50%
 }
 
-@keyframes swing {
+@keyframes swinging {
   20% { transform: translateX(2px) }
   40% { transform: translateX(-4px) }
   60% { transform: translateX(4px) }
@@ -52,7 +52,7 @@
 }
 
 .swing:hover {
-  animation: swing 1s ease;
+  animation: swinging 1s ease;
 }
 
 @keyframes rainbow {
